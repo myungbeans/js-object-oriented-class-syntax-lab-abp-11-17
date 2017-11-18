@@ -1,8 +1,8 @@
 class BoardMember {
   constructor(name, homeState, training) {
-    return this.name = name;
-    return this.homeState = homeState;
-    return this.training = training;
+    this.name = name;
+    this.homeState = homeState;
+    this.training = training;
   }
 
   veto(){
